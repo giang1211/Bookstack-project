@@ -2,7 +2,7 @@
 
 echo " deploying the backend"
 
-kubens bookstack-s9
+kubens bookstack-project
 kubectl apply  -f  bookstack_db_secret.yml
 kubectl apply  -f  bookstack_db_cm.yml
 kubectl apply  -f  bookstack_db_pvc-01.yml 
@@ -18,4 +18,5 @@ kubectl apply  -f bookstack_frontend_pvc.yml
 kubectl apply  -f bookstack_frontend_svc.yml
 kubectl apply  -f bookstack_frontend.yml
 kubectl apply -f bookstack_env_cm.yml
+kubectl apply -f sa.yml
 # kubectl apply  -f bookstack_ingress.yml

@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: bookstack-ingress
-  namespace: bookstack-s9
+  namespace: bookstack-project
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:

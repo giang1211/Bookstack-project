@@ -5,9 +5,9 @@
         "creationTimestamp": "2025-04-12T18:39:24Z",
         "deletionTimestamp": "2025-04-27T14:32:14Z",
         "labels": {
-            "kubernetes.io/metadata.name": "bookstack-s9"
+            "kubernetes.io/metadata.name": "bookstack-project"
         },
-        "name": "bookstack-s9",
+        "name": "bookstack-project",
         "resourceVersion": "15899844",
         "uid": "d66aec58-9f58-4298-804c-1f0cc7158955"
     },

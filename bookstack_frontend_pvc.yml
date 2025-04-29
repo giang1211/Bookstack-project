@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: bookstackpvc
-  namespace: bookstack-s9
+  namespace: bookstack-project
 spec:
   accessModes:
     - ReadWriteOnce

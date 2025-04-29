@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: bookstack
-  namespace: bookstack-s9
+  namespace: bookstack-project
 spec:
   replicas: 1
   selector:
