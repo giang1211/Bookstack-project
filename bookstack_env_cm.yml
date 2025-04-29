@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bookstack-env-config
+  namespace: bookstack-s9
+data:
+  .env: |
+    APP_URL=http://134.122.119.201:30913
+    DB_HOST=bookstackdb
+    DB_PORT=3306
+    DB_DATABASE=bookstackapp
+    DB_USERNAME=bookstack
+    DB_PASSWORD=bookstack
+    MAIL_DRIVER=smtp
+    MAIL_HOST=smtp.gmail.com
+    MAIL_PORT=465
+    MAIL_USERNAME=info@devopseasylearning.com
+    MAIL_PASSWORD=yourmailpassword
+    MAIL_FROM_NAME=BookStack
+    MAIL_FROM_ADDRESS=info@devopseasylearning.com
+    
